@@ -56,3 +56,28 @@ Run *train_vgcn_bert.py* to train the VGCN-BERT model. Before training the model
 ```
 python train_vgcn_bert.py --ds cola
 ```
+
+install python 3.7.9
+buat env variabel 3.7 paling atas
+install virtualenv library pakai command
+pip install virtualenv
+
+create virtual environtment baru pakai command
+
+python -m virtualenv NamaEnv
+
+hidupkan environtment baru pakai command:
+
+NamaEnv\Scripts\activate
+
+masuk ke direktori tugas akhir
+
+install library pakai requirements.txt pakai command:
+
+pip install -r requirements.txt
+
+selanjutnya pakai command buat ngerjain ta
+
+kalau untuk mematikan venv:
+
+deactivate
